@@ -109,9 +109,6 @@ The task: print the numbers 1 to 100, replacing multiples of 3 with "fizz", mult
 - **Format numbers for people.** The tile area prints as 9.799999999999999 because of how computers store decimals. Formatting it with `:.2f`, as I did for the cost, would print 9.80.
 - **Check input before converting it.** If someone types a word where a number is expected, `int()` stops the program with an error. Wrapping the conversion in `try` and `except` would let it ask again instead.
 
-## 💼 Where this applies
-
-These are the building blocks for automating repetitive checks: read a value, apply a rule, and flag anything that fails. In audit or tax work, a short script that applies the same test to every record is quicker and more consistent than checking each one by hand.
 
 ## 📁 Repository contents
 
